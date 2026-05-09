@@ -1,0 +1,13 @@
+# Python
+backend/env/
+__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
