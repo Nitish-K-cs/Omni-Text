@@ -1,0 +1,6 @@
+2026-05-21 16:17:34,692 - ImageReader - WARNING - Image ../datasets/mjsynth/mnt/ramdisk/max/90kDICT32px/2069/4/192_whittier_86389.jpg could not be read, returning None.
+2026-05-21 16:17:34,692 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2026-05-21 16:17:34,692 - DataProvider - WARNING - Data or annotation is None, skipping.
+2026-05-21 16:28:10,646 - ImageReader - WARNING - Image ../datasets/mjsynth/mnt/ramdisk/max/90kDICT32px/913/4/231_randoms_62372.jpg could not be read, returning None.
+2026-05-21 16:28:10,647 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2026-05-21 16:28:10,647 - DataProvider - WARNING - Data or annotation is None, skipping.
