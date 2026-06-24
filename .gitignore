@@ -14,3 +14,6 @@ frontend/node_modules/
 
 #Ml data_sources
 backend/ML/datasets/
+backend/ML/models/
+backend/ML/SentenceToString/Datasets/
+backend/ML/SentenceToString/Models/
