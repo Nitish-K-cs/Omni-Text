@@ -1,5 +1,7 @@
 # Python
 venv/
+venv1/
+venv2/
 __pycache__/
 *.pyc
 *.db
@@ -13,8 +15,14 @@ node_modules/
 # Environment files
 .env
 
-# ML data (large files)
+# ML data (large files - ignore datasets only)
 backend/ML/datasets/
-backend/ML/models/
 backend/ML/SentenceToString/Datasets/
-backend/ML/SentenceToString/Models/
+
+
+# Instead ignore only large/extra models
+*.h5
+*.pt
+*.pth
+
+!backend/Models/nitish.keras
