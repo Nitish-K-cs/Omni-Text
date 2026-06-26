@@ -274,9 +274,10 @@ function App() {
               <button className="primary" onClick={extract}>Extract text</button>
             </div>
             <div className="preview-box">
-              <video ref={videoRef} autoPlay
-                style={{ width: 300, borderRadius: 12, border: "1px solid rgba(255,255,255,.1)" }} />
-              {preview && (
+              {!preview ? (
+                <video ref={videoRef} autoPlay
+                  style={{ width: 300, borderRadius: 12, border: "1px solid rgba(255,255,255,.1)" }} />
+              ) : (
                 <div className="scan-frame">
                   <div className="scanline" />
                   <div className="scan-corner tl" /><div className="scan-corner tr" />
