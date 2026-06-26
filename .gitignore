@@ -17,3 +17,11 @@ backend/ML/datasets/
 backend/ML/models/
 backend/ML/SentenceToString/Datasets/
 backend/ML/SentenceToString/Models/
+
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.pt
+*.h5
+*.onnx
