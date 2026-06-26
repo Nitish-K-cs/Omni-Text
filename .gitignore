@@ -1,10 +1,11 @@
 # Python
-backend/env/
+venv/
 __pycache__/
 *.pyc
+*.db
 
 # Node
-frontend/node_modules/
+node_modules/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -12,16 +13,8 @@ frontend/node_modules/
 # Environment files
 .env
 
-#Ml data_sources
+# ML data (large files)
 backend/ML/datasets/
 backend/ML/models/
 backend/ML/SentenceToString/Datasets/
 backend/ML/SentenceToString/Models/
-
-venv/
-__pycache__/
-*.pyc
-*.pkl
-*.pt
-*.h5
-*.onnx
